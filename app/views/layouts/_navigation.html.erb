@@ -7,7 +7,7 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item dropdown">
+        <li class="nav-item dropdown active">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Projects
           </a>
@@ -17,11 +17,23 @@
             <%= link_to 'Alpha Blog', three_path, class: 'nav-link' %>
           </div>
         </li>
+        <li class="nav-item active">
+          <%= link_to 'Old Empire', oldempire_path, class: 'nav-link' %>
+        </li>
+        <li class="nav-item active">
+          <%= mail_to 'josh-retallick@hotmail.com', "Contact", class: 'nav-link' %>
+        </li>
+      </ul>
+      <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link" href="#">Old Empire<span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="https://github.com/joshuaretallick">
+            <%= render 'layouts/github' %>
+          </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link" href="https://www.linkedin.com/in/oldempire/">
+            <%= render 'layouts/linked' %>
+          </a>
         </li>
       </ul>
     </div>

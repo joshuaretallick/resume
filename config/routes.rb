@@ -3,4 +3,5 @@ Rails.application.routes.draw do
   get 'one', to: 'one#index'
   get 'two', to: 'two#index'
   get 'three', to: 'three#index'
+  get 'oldempire', to: 'oldempire#index'
 end
