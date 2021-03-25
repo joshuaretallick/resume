@@ -18,18 +18,36 @@
   border-radius: 0 !important;
   background-color: lightpink;
   border: none;
+  width: 18rem;
+  height: 100%;
 }
 
 .rounded-circle {
   border-radius: 100%;
   border: 5px solid whitesmoke;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .top-buffer {
-  margin-top: 20px;
   filter: grayscale(65%);
+  margin-top: 40px;
 }
 
 .row-buffer {
   margin-top: 10px;
+}
+
+.skills-header {
+  font-family: "Lobster", cursive;
+  font-size: 2rem;
+  margin-top: 40px;
+}
+
+.list {
+  text-align: center;
+  list-style-type: none;
+  margin-right: 40px;
+  font-family: "Noto Sans HK", sans-serif;
+  font-style: italic;
+  font-size: 0.9rem;
 }
