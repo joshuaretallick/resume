@@ -9,6 +9,10 @@
   text-align: center;
 }
 
+.navbar-brand {
+  padding-left: 10px;
+}
+
 .profile {
   margin-top: 40px;
   margin-bottom: 10px;
@@ -19,7 +23,8 @@
   background-color: lightpink;
   border: none;
   width: 18rem;
-  height: 100%;
+  min-height: 100vh;
+  position: right;
 }
 
 .rounded-circle {
@@ -50,4 +55,21 @@
   font-family: "Noto Sans HK", sans-serif;
   font-style: italic;
   font-size: 0.9rem;
+}
+
+.heading {
+  margin-left: 1000px;
+}
+
+.job-title {
+  position: fixed;
+  top: 45%;
+  left: 40%;
+  margin-top: -50px;
+  margin-left: -100px;
+  font-family: "Lobster", cursive;
+}
+
+.description {
+  font-family: "Noto Sans HK", sans-serif;
 }
