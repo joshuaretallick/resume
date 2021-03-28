@@ -1,8 +1,8 @@
-  <div class="row">
-    <div class="col-4">
-      <div class="card">
+<div class="container-fluid vh-100">
+  <div class="row justify-content-start">
+    <div class="col-4 left-column">
         <div class="text-center profile">
-            <img src="/assets/profile.jpg" class="rounded-circle" style="width:200px;height:200px;" />
+            <img src="/assets/profile.jpg" class="img-fluid rounded-circle"/>
         </div>
         <div class="text-center skills-header">
           Skills
@@ -15,12 +15,11 @@
             <li><img src="/assets/tick.svg" style="width:10px;height:10px;"/> Test Driven Development & Debugging</li>
           </ul>
         </div>
-        <div class="container col-md-8 top-buffer">
+        <div class="container text-center vh-100 top-buffer ">
           <%= render 'layouts/logos' %>
         </div>
-      </div>
     </div>
-    <div class="col-4">
+    <div class="col-8">
       <div class="job-title text-left">
         <h1 class="job-display">Software Developer</h1>
         <p class="description text-left">A highly driven, ambitious junior web developer and <a href="https://makers.tech/">Makers Academy</a> graduate.<br>Since graduating I have continued working on personal coding projects which<br> you can see examples of in this website.<br>
@@ -28,3 +27,4 @@
       </div>
     </div>
   </div>
+</div>

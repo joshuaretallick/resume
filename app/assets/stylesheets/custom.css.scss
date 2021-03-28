@@ -14,15 +14,14 @@
 }
 
 .profile {
-  margin-top: 40px;
-  margin-bottom: 10px;
+  min-width: 50px;
+  min-height: 50px;
 }
 
 .card {
   border-radius: 0 !important;
-  background-color: lightpink;
   border: none;
-  width: 18rem;
+  min-width: 18px;
   min-height: 100vh;
   position: right;
 }
@@ -34,18 +33,17 @@
 }
 
 .top-buffer {
+  margin-top: 60px;
   filter: grayscale(65%);
-  margin-top: 40px;
 }
 
 .row-buffer {
-  margin-top: 10px;
 }
 
 .skills-header {
   font-family: "Lobster", cursive;
   font-size: 2rem;
-  margin-top: 40px;
+  margin-top: 60px;
 }
 
 .list {
@@ -62,12 +60,9 @@
 }
 
 .job-title {
-  position: fixed;
-  top: 45%;
-  left: 40%;
-  margin-top: -50px;
-  margin-left: -100px;
   font-family: "Lobster", cursive;
+  margin-top: 250px;
+  margin-left: 50px;
 }
 
 .description {
@@ -140,4 +135,11 @@ iframe {
 
 .oe-pad {
   padding-top: 20px;
+}
+
+.left-column {
+}
+
+.col-4 {
+  background-color: lightpink;
 }
